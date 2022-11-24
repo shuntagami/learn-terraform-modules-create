@@ -1,4 +1,6 @@
 # Output variable definitions
+# You should also consider which values to add as outputs,
+# since outputs are the only supported way for users to get information about resources configured by the module.
 
 output "arn" {
   description = "ARN of the bucket"
